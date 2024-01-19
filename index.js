@@ -1,10 +1,10 @@
 console.log("Hello World!");
 
-const a = 1;
-const b = 2;
+const a = 2;
+const b = 1;
 
-function sum(a, b) {
-  return a + b;
+function sum(b, a) {
+  return b + a;
 }
 
-console.log(sum(a, b));
+console.log(sum(b, a));
